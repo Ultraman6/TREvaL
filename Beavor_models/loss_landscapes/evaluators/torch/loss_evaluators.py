@@ -120,8 +120,8 @@ class GradientEvaluator(SupervisedTorchEvaluator):
 #
 #     def __call__(self, model) -> np.ndarray:
 #         return np.linalg.eigvals(self.hessian_evaluator(model))
-#
-#
+
+
 # class CurvaturePositivityEvaluator(SupervisedTorchEvaluator):
 #     """
 #     Computes the extent of the positivity of a loss function's curvature at a

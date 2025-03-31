@@ -5,7 +5,6 @@ The evaluators in this module are not specific to the landscape of the training 
 can be useful in other situations; for example, a ClassAccuracyEvaluator can be used to
 inspect the classification accuracy of a model under different parameter value assignments.
 """
-
 from abc import ABC, abstractmethod
 import torch.nn
 from sl.evaluators import Evaluator
